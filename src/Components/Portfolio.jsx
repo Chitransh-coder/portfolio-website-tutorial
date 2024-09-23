@@ -1,4 +1,4 @@
-/**
+  /**
  * Portfolio component
  *
  * Highlights some of  your creations. These can be designs, websites,
@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/portfolio_back.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "matrix binary code";
 
 /**
  * Project list
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Plant classification model using CNN",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "A Convolutional Neural Network model that classifies plants based on their images of leaves. It is trained on a dataset of 100,000 images of 13 different kitchen plants that can help farmers grow their crops.",
+    url: "",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Simple Regression model using Scikit-Learn",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "My first machine learning model that uses sklearn library with Random Forest Regressor algorithm.",
+    url: "https://github.com/Chitransh-coder/Regression-Model-using-SKLearn",
   },
   {
-    title: "My Resume Site",
+    title: "Student Database Management system by C",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Created a student databasse management system in C using sqlite3.",
+    url: "https://github.com/Chitransh-coder/Student-Database-by-C--",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Simple REST API using Flask",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Simple RESTful API that helps managing a store using Flask Library in Python.",
+    url: "https://github.com/Chitransh-coder/Simple-REST-API-using-Flask",
   },
 ];
 
